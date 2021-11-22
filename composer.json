@@ -1,0 +1,34 @@
+{
+    "name": "landofcoder/module-formbuilder-mautic-compatible",
+    "description": "Magento 2 form builder Mautic integration extension allow send thanks you email via Mautic.",
+    "require": {
+        "landofcoder/module-mautic": "1.*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "keywords": [
+        "landofcoder",
+        "landofcoder formbuilder mautic",
+        "magento 2 formbuilder mautic extension"
+      ],
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "Magento 2 Lof Formbuilder Mautic Integration",
+            "email": "landofcoder@gmail.com",
+            "role": "Magento 2 Extensions Provider",
+            "homepage": "https://landofcoder.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Lof\\FormbuilderMautic\\": ""
+        }
+    }
+}
