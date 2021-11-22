@@ -12,7 +12,7 @@ The module require 2 modules:
 
 ## Main Functionalities
 
-- Delete Mautic contact from Magento 2
+- Delete Mautic contact from Magento 2 when Customer request delete his account on magento 2 site.
 
 ## Installation
 \* = in production please use the `--keep-generated` option
