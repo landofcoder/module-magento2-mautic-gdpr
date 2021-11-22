@@ -2,7 +2,7 @@
     "name": "landofcoder/module-mautic-gdpr",
     "description": "Magento 2 Mautic GDPR, allow customer remove contact on Mautic.",
     "require": {
-        "landofcoder/module-mautic": "1.*",
+        "landofcoder/module-mautic-integration": "1.*",
         "landofcoder/module-gdpr": "1.*"
     },
     "type": "magento2-module",
