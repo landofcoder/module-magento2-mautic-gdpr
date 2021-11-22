@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Lof\MauticGdpr\Queue\MessageQueues\Customer;
+namespace Lof\MauticGdpr\Queue\MessageQueues\CustomerDelete;
 
 use Lof\Mautic\Queue\MessageQueues\AbstractPublisher;
 

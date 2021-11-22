@@ -3,7 +3,7 @@
 namespace Lof\MauticGdpr\Observer;
 
 use Magento\Framework\Event\ObserverInterface;
-use Lof\MauticGdpr\Queue\MessageQueues\Customer\Publisher;
+use Lof\MauticGdpr\Queue\MessageQueues\CustomerDelete\Publisher;
 
 class CustomerDeleteAfter implements ObserverInterface
 {
