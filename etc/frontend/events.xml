@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+	<event name="anonymise_account_after_delete">
+        <observer name="lof_mauticgdpr_customer_delete_after" instance="Lof\MauticGdpr\Observer\CustomerDeleteAfter" />
+    </event>
+</config>
