@@ -1,15 +1,16 @@
 {
-    "name": "landofcoder/module-formbuilder-mautic-compatible",
-    "description": "Magento 2 form builder Mautic integration extension allow send thanks you email via Mautic.",
+    "name": "landofcoder/module-mautic-gdpr",
+    "description": "Magento 2 Mautic GDPR, allow customer remove contact on Mautic.",
     "require": {
-        "landofcoder/module-mautic": "1.*"
+        "landofcoder/module-mautic": "1.*",
+        "landofcoder/module-gdpr": "1.*"
     },
     "type": "magento2-module",
     "version": "1.0.0",
     "keywords": [
         "landofcoder",
-        "landofcoder formbuilder mautic",
-        "magento 2 formbuilder mautic extension"
+        "landofcoder gdpr mautic",
+        "magento 2 gdpr mautic extension"
       ],
     "license": [
         "OSL-3.0",
@@ -17,7 +18,7 @@
     ],
     "authors": [
         {
-            "name": "Magento 2 Lof Formbuilder Mautic Integration",
+            "name": "Magento 2 Lof Mautic GDPR",
             "email": "landofcoder@gmail.com",
             "role": "Magento 2 Extensions Provider",
             "homepage": "https://landofcoder.com"
@@ -28,7 +29,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "Lof\\FormbuilderMautic\\": ""
+            "Lof\\MauticGdpr\\": ""
         }
     }
 }

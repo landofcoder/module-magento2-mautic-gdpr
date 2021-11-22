@@ -22,4 +22,7 @@ Run commands to setup libs:
 ```
 composer require landofcoder/module-mautic
 composer require landofcoder/module-gdpr
+php bin/magento setup:upgrade
+php bin/magento setup:static-content:deploy -f
+php bin/magento cache:clean
 ```
